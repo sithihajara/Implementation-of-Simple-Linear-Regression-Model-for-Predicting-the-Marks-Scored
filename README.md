@@ -9,10 +9,12 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Algorithm
 ```
-1.Import the needed packages
-2.Assigning hours To X and Scores to Y
-3.Plot the scatter plot
-4.Use mse,rmse,mae formmula to find
+1.Import the standard Libraries.
+2.Set variables for assigning dataset values.
+3.Import linear regression from sklearn.
+4.Assign the points for representing in the graph
+5.Predict the regression for marks by using the representation of the graph.
+6.Compare the graphs and hence we obtained the linear regression for the given datas.
 ```
 ## Program:
 ```
@@ -72,7 +74,7 @@ print('RMSE = ',rmse)
 ## Output:
 ![ml1](https://user-images.githubusercontent.com/94219582/193458177-655b6c90-ddb6-43ce-b9af-dd11ca45c20a.png)
 ![ml2](https://user-images.githubusercontent.com/94219582/193458190-589570af-b80c-4577-a0e4-84ba844e85f8.png)
-![ml3](https://user-images.githubusercontent.com/94219582/193458198-ed30b519-f24d-4ca8-ae33-5374ced8a49f.png)
+
 ![ml4](https://user-images.githubusercontent.com/94219582/193458202-cfa670e3-f16a-4a11-920d-c832f943f069.png)
 
 ## Result:
